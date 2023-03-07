@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.container {
+    width: 400px;
+    
+    margin: 0 auto;
+}
+
+.img-container {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.character-img {
+    
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+.character-name {
+    text-align: center;
+}
+
+.hero h3, .monster h3 {
+    margin: 0; 
+}
+
+
+
+.dice-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dice {
+    color: goldenrod;
+    padding: 10px 20px;
+    background-color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 18px;
+}
+
+.attack-btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(111, 102, 102);
+    background-color: rgb(232, 184, 63);
+    border-radius: 10px;
+    border: none;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
