@@ -9,9 +9,7 @@ function render() {
 
 const wizard = new Character(charactersData.hero)
 
-
 const orc = new Character(charactersData.monster)
-
 
 render()
 
