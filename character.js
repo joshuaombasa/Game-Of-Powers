@@ -1,7 +1,7 @@
 function Character(data) {
     Object.assign(this, data) 
 
-    this.getRandomNumberArrayHtml = function () {
+    this.getRandomNumberArrayHtml =  () => {
         let randomArray = ''
         return randomArray = new Array(this.diceCount).fill(0).map((num) => {
         return `<div class="dice">${Math.floor(Math.random() * 6)+1}</div>`
