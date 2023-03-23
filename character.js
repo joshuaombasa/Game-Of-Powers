@@ -13,7 +13,7 @@ function Character(data) {
 
     let characterHtml = ''
      return characterHtml = 
-
+     
     `<h3 class="character-name">${name}</h3>
     <div class="img-container">
     <img src="${avatar}" alt="" class="character-img">
